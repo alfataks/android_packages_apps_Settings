@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2013 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Customization main menu category heading [CHAR LIMIT=40] -->
+    <string name="header_category_customization">Кастом Настройки</string>
+
+    <!-- Lock screen sub menu [CHAR LIMIT=30] -->
+    <string name="lock_screen_settings">Экран блокировки</string>
+
+    <!-- Lock screen see through -->
+    <string name="see_through_title">Прозрачность экрана блокировки </string>
+    <string name="see_through_summary">Позволяет увидеть рабочий стол за экраном блокировки</string>
+
+    <!-- Home screen widgets -->
+    <string name="home_screen_widgets_title">Виджеты рабочего стола</string>
+    <string name="home_screen_widgets_summary">Добавление виджетов рабочего стола на экран блокировки</string>
+
+     <!-- Display : Animation options -->
+    <string name="display_category_animation_options_title">Настройки анимации</string>
+    <string name="system_power_crt_screen_off_title">Включить анимацию</string>
+    <string name="system_power_crt_screen_off_summary">Анимация при выключении экрана(старый телевизор)</string>
+    <string name="system_power_crt_mode_title">Режимы анимации</string>
+    <string name="system_power_crt_mode_dialog_title">Изменить режимы анимации</string>
+    <string name="system_power_crt_mode_horizontal">Портрет горизонталь</string>
+    <string name="system_power_crt_mode_vertical">Портрет вертикаль</string>
+    <string name="system_power_crt_mode_both">От ориентации экрана</string>
+
+ <!-- Display settings screen, rotation settings -->
+    <string name="rotation_settings_title">Поворот экрана</string>
+    <string name="rotation_settings_summary">Выбор режима поворота экрана</string>
+    <string name="rotation_0">0 градусов</string>
+    <string name="rotation_90">90 градусов</string>
+    <string name="rotation_180">180 градусов</string>
+    <string name="rotation_270">270 градусов</string>
+
+    <!-- Bars sub menu [CHAR LIMIT=30] -->
+    <string name="tool_bar_status_header">Статус бар</string>
+
+    <!-- Status bar notification limit -->
+    <string name="status_bar_max_notifications_title">Лимит уведомлений</string>
+    <string name="status_bar_max_notifications_summary">Выберите ограничение значков уведомлений, которые будут показаны в строке состояния. Относится только к портретной ориентации</string>
+
+    <!-- Do not disturb -->
+    <string name="status_bar_donotdisturb_title">Отключить отображение уведомлений</string>
+    <string name="status_bar_donotdisturb_summary">Отключить анимацию для входящих уведомлений</string>
+
+    <!-- Quick settings panel  -->
+    <string name="disable_quick_settings_panel">Быстрые настройки</string>
+    <string name="disable_quick_settings_panel_summary">Включить выключить быстрые настройки</string>
+    <string name="quick_settings_enabled">Включено</string>
+    <string name="quick_settings_disabled">Выключено</string>
+    <string name="title_no_notifications_pulldown">Быстрые настройки без уведомления</string>
+    <string name="summary_no_notifications_pulldown">Включение быстрой настройки, если нет уведомлений</string>
+
+    <!-- QuickSettings style options -->
+    <string name="quicksettings_tiles_style">Стиль быстрых настроек</string>
+    <string name="summary_quicksettings_tiles_style">Посмотреть или изменить стиль быстрых настроек</string>
+    <string name="quicksettings_tiles_style_additional_options">Дополнительные опции</string>
+    <string name="tiles_per_row_title">Колличество плиток на строку</string>
+    <string name="tiles_per_row_duplicate_landscape_title">Увеличить колличество в плоншетном режиме</string>
+    <string name="tiles_per_row_duplicate_landscape_summary">Удваивается колличество плиток на строке в планшетном режиме</string>
+    <string name="quick_tiles_text_color_title">Цвет текста плиток</string>
+    <string name="quick_settings_style_reset">Сброс цветов</string>
+    <string name="none">Нет</string>
+
+    <!-- Pie controls -->
+    <string name="pie_settings_title">Pie настройки</string>
+    
+    <string name="pie_gravity_title">Положение PIE</string>
+    <string name="pie_gravity_summary">Выберите где будет расположен PIE</string>
+    <string name="pie_gravity_top">Вверху</string>
+    <string name="pie_gravity_bottom">Снизу</string>
+    <string name="pie_gravity_right">Справо</string>
+    <string name="pie_gravity_left">Слева</string>
+
+    <string name="pie_center_title">Выровнять по центру</string>
+    <string name="pie_center_summary">Pie по центру</string>
+    
+    <string name="pie_mode_title">PIE анимация</string>
+    <string name="pie_mode_summary">Настройте анимацию появления уведомлений и дополнительных элементов</string>
+    <string name="pie_mode_bare">Без уведомлений</string>
+    <string name="pie_mode_quick">Быстро</string>
+    <string name="pie_mode_default">Обычно (по умолчанию)</string>
+    <string name="pie_mode_slow">Медленно</string>
+    
+    <string name="pie_size_title">Размер PIE</string>
+    <string name="pie_size_summary">Установите размер PIE</string>
+    <string name="pie_size_small">Маленький</string>
+    <string name="pie_size_default">@string/pie_mode_default</string>
+    <string name="pie_size_large">Большой</string>
+    <string name="pie_size_gigantic">Огромный</string>
+    <string name="pie_size_monster">Монстр</string>
+
+    <string name="pie_angle_title">Pie угол</string>
+    <string name="pie_angle_summary">Регулировка угла Pie</string>
+    <string name="pie_angle_none">Нет (по умолчанию)</string>
+    <string name="pie_angle_small">Небольшой</string>
+    <string name="pie_angle_big">Большой</string>
+    <string name="pie_angle_huge">Огромный</string>
+    
+    <string name="pie_gap_title">Интервал элементов</string>
+    <string name="pie_gap_summary">Настройте интервал между PIE элементами</string>
+    <string name="pie_gap_none">Без интервала</string>
+    <string name="pie_gap_small">Маленький (По умолчанию)</string>
+    <string name="pie_gap_big">Большой</string>
+    <string name="pie_gap_huge">Огромный</string>
+
+    <string name="pie_menu_title">Постоянная кнопка меню</string>
+    <string name="pie_menu_summary">Всегда отображать кнопку меню, даже когда в этом нет необходимоcти</string>
+
+    <string name="pie_search_title">Кнопка поиска</string>
+    <string name="pie_search_summary">Активировать кнопку поиска при PIE</string>
+
+    <string name="pie_trigger_title">Область триггера</string>
+    <string name="pie_trigger_summary">Определить размер области, которая регистрирует жест Swipe</string>
+    <string name="pie_trigger_none">Нет</string>
+    <string name="pie_trigger_small">Маленький</string>
+    <string name="pie_trigger_normal">Нормальный (По умолчанию)</string> 
+    <string name="pie_trigger_big">Большой</string>
+    <string name="pie_trigger_huge">Огромный</string>
+
+    <string name="pie_stick_title">Предотвращение вращения</string>
+    <string name="pie_stick_summary">Если отмечено Pie будет оставаться на месте независимо от ориентации</string>
+
+    <string name="app_halo_label_black">Черный список уведомлений HALO</string>
+    <string name="app_halo_label_white">Белый список уведомлений HALO</string>
+
+    <!-- HALO -->
+    <string name="halo_settings_title">HALO Настройки</string>
+    <string name="halo_hide_title">Скрывать HALO после активации</string>
+    <string name="halo_hide_summary">Скрывается после выполнения задач</string>
+    <string name="halo_reversed_title">Обратные действия HALO</string>
+    <string name="halo_reversed_summary">Применяется задачами или по двойному тапу</string>
+    <string name="halo_state_title">Выбор списка</string>
+    <string name="halo_state_summary">HALO для черных / белых списков уведомлений</string>
+    <string name="halo_state_black">Черный список</string>
+    <string name="halo_state_white">Белый список</string>
+    <string name="halo_pause_title">Пауза HALO</string>
+    <string name="halo_pause_summary">При запуске приложений, HALO приостанавливается(включен по умолчанию на устройствах с малой памятью)</string>
+
+    <!--  About device screen, Hardware info -->
+    <string name="hardware_info">Hardware информация</string>
+    <!--  About device Screen, hardware info, rear camera -->
+    <string name="device_rear_camera">Задняя камера</string>
+    <!--  About device Screen, hardware info, front camera -->
+    <string name="device_front_camera">Передняя камера</string>
+    <!--  About device Screen, hardware info, screen res -->
+    <string name="device_screen_resolution">Разрешение экрана</string>
+    <!--  About device Screen, hardware info, GPU info -->
+    <string name="gpu_info">ГПУ</string>
+    <!-- About device screen, Chipset info -->
+    <string name="chipset_info">Чипсет</string>
+
+    <!-- Hybrid sub menu [CHAR LIMIT=30] -->
+    <string name="hybrid_settings">Paranoid настройки</string>
+
+    <string name="pa_version">Версия ParanoidAndroid</string>
+    <string name="pa_version_default">Неизвестно</string>
+
+    <string name="pac_version">Версия PAC-man</string>
+
+    <!-- MAKE IT DARK HEADER -->
+    <string name="header_category_dark">DARK HEADER</string>
+    
+    <!-- TRDS Settings -->
+    <string name="trds_settings_title">DARK</string>
+
+    <string name="notification_draw_settings_title">Ярлыки и WiFi дисплей</string>
+    
+    <string name="title_show_reboot_keyguard">Показать перезагрузку на Экране блокировки</string>
+
+    <!-- Notification Shortcuts -->
+    <string name="notification_shortcuts_grouptitle">Ярлыки</string>
+    <string name="notification_shortcuts_settings_title">Ярлыки уведомлений</string>
+    <string name="notification_shortcuts_settings_summary">Показать ярлыки уведомлений</string>
+    <string name="notification_shortcuts_empty_title">Пусто</string>
+    <string name="notification_shortcuts_edit_title">Изменить ярлык</string>
+    <string name="notification_shortcuts_edit_msg">Выбрать или изменить значек приложения</string>
+    <string name="notification_shortcuts_reset_title">Очистка ярлыков</string>
+    <string name="notification_shortcuts_category_reset_title">Сброс</string>
+    <string name="notification_shortcuts_title">Ярлык</string>
+    <string name="notification_shortcuts_icon_picker_stock_icons_title">Иконки</string>
+    <string name="notification_shortcuts_quantity_title">Количество ярлыков</string>
+    <string name="notification_shortcuts_quantity_summary">Количество ярлыков для отображения</string>
+    <string name="notification_shortcuts_move_text">Изменить</string>
+    <string name="notification_shortcuts_move_up">Переместить вверх <xliff:g id="app_name">%s</xliff:g> up a slot</string>
+    <string name="notification_shortcuts_move_down">Переместить вниз <xliff:g id="app_name">%s</xliff:g> down a slot</string>
+    <string name="notification_shortcuts_color_title">Цвет иконки </string>
+    <string name="notification_shortcuts_color_summary">Установить цвет иконки ярлыка приложений</string>
+    <string name="notification_shortcuts_colorize_toggle_title">Цвет иконки приложений</string>
+    <string name="notification_shortcuts_colorize_toggle_summary">Окрашивает иконки приложений выбранным цветом</string>
+    <string name="notification_shortcuts_hide_carrier_title">Прозрачность</string>
+
+    <string name="notification_show_wifi_ssid_title">Показать имя сети Wi-Fi</string>
+    <string name="notification_show_wifi_ssid_summary">Отображать название подключенной сети Wi-Fi</string>
+
+</resources>
