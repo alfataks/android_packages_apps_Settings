@@ -4581,7 +4581,8 @@
     <string name="quick_tiles_bg_pressed_color_title">Tiles pressed background color</string>
     <string name="flip_qs_tiles_title">Flip tiles</string>
     <string name="flip_qs_tiles_summary">Flips the tiles on touch</string>
-
+    <string name="qs_random_colors_title">QS Random colors </string>
+    <string name="qs_random_colors_summary">Sets Random colors for QS onFlip</string>
     <string name="none">None</string> 
 
     <!-- Reset tiles -->
@@ -4793,12 +4794,17 @@
     <!-- Permissions Management -->
     <string name="permissions_settings_title">Permissions</string>
 
-	<!-- PACStats -->
-	<string name="pacstats_settings_title">PACStats</string>
+    <!-- PACStats -->
+    <string name="pacstats_settings_title">PACStats</string>
 
     <!-- Share PAC-Man ROM -->
    <string name="share_pacrom">Share PAC-Man ROM</string>
    <string name="share_pacrom_summary">Let people know you use PAC-Man ROM</string>
    <string name="share_message">Try PAC-Man ROM! \nWebsite : http://pac-rom.com \nIRC : #pac-rom \nDownload : http://pacman.basketbuild.com</string>
    <string name="share_chooser_title">Via..</string>
+
+    <!-- Lockscreen Security Options -->
+    <string name="lock_before_unlock_title">Show slider before secure unlock</string>
+    <string name="lock_before_unlock_summary">Show slider lockscreen before secure unlock mechanism</string>
+    <string name="lockscreen_security_grouptitle">Security options</string>
 </resources>
